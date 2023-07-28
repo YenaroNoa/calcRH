@@ -34,4 +34,9 @@ function dividir() {
 function modificarRes() {
   divRes.innerHTML = res
 }
+<<<<<<< HEAD
 //las funciones funcionan correctamente.
+=======
+
+//hacinedo un commit 
+>>>>>>> 3699210c30ca7dab6ebeb6c99ff41bb39e878ce5

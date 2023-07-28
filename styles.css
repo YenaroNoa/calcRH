@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     display:  flex;
     flex-direction: column;
     align-items: center;
@@ -12,3 +13,18 @@ body {
     width: 40vw;
     font-size: 1.4rem;
   }
+=======
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10%;
+  font-size: 1.4rem;
+}
+
+button {
+  width: 40vw;
+  font-size: 1.4rem;
+}
+>>>>>>> 3699210c30ca7dab6ebeb6c99ff41bb39e878ce5
