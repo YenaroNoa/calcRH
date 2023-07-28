@@ -34,3 +34,5 @@ function dividir() {
 function modificarRes() {
   divRes.innerHTML = res
 }
+
+//hacinedo un commit 
