@@ -34,3 +34,4 @@ function dividir() {
 function modificarRes() {
   divRes.innerHTML = res
 }
+//las funciones funcionan correctamente.
