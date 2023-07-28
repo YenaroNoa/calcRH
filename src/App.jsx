@@ -9,8 +9,6 @@ function App() {
   const fillNums = () => {
     setNum1(Number(prompt())); 
     setNum2(Number(prompt()));
- //   setNum1(prompt());
-//    setNum2(prompt());
   }
 
   const dividir = () => {
@@ -35,9 +33,9 @@ function App() {
           Resultado: {result}
         </p>
       </div>
-      <div>
-        <input onChange={(e) => setNum1(e.target.value)} />
-        <input onChange={(e) => setNum2(e.target.value)} />
+      <div className='boxInput'>
+        <input onChange={(e) => setNum1(Number(e.target.value))} />
+        <input onChange={(e) => setNum2(Number(e.target.value))} />
       </div>
       <div className="card boxApp">
         <button onClick={() => setResult(num1 + num2)}>
